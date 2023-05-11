@@ -1,0 +1,57 @@
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  root: true,
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    jest: true,
+  },
+  extends: ['plugin:react/recommended', 'plugin:prettier/recommended', 'prettier'],
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  rules: {
+    indent: 'off',
+    camelcase: 'off',
+    semi: 'off',
+    quotes: 'off',
+    'no-shadow': 'off',
+    'no-use-before-define': 'off',
+    'no-unused-vars': 'off',
+    'no-console': 'off',
+    'no-magic-numbers': 'off',
+    'no-redeclare': 'off',
+    'no-array-constructor': 'off',
+    'no-dupe-class-members': 'off',
+    'no-extra-semi': 'off',
+    'no-empty-function': 'off',
+    'linebreak-style': 'off',
+    'prettier/prettier': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-named-as-default': 'off',
+    /* react options */
+    'react/prop-types': 'off',
+    'react/display-name': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/no-array-index-key': 'off',
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+    // 리액트 함수형 컴포넌트 정의 방식 선언
+    'react/function-component-definition': [2, { namedcomponents: 'arrow-function' }],
+  },
+  ignorePatterns: ['node_modules/'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+};
