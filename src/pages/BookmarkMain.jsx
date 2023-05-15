@@ -12,7 +12,7 @@ export default function BookmarkMain() {
   };
 
   return (
-    <Layout padding={'0 2.4rem'}>
+    <Layout padding={'0 2.4rem 6rem'}>
       <Title>클릭으로 북마크 해보세요!</Title>
       <Bookmark getBookmarkList={getBookmarkList} />
       <Button bookmarkList={bookmarkList} />

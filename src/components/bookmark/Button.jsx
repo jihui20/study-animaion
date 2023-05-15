@@ -59,7 +59,7 @@ const FloatingButton = styled.div`
     }
 
     &.active {
-      background-color: #ffeb00;
+      background-color: #efce4a;
 
       p {
         opacity: 1;
@@ -104,7 +104,6 @@ const ItemThumbBox = styled.ul`
       `}
 
     + li {
-      /* margin-right: -2rem; */
       z-index: 2;
     }
 
