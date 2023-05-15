@@ -32,7 +32,7 @@ const LinkBox = styled.ul`
       font-size: 2rem;
       font-weight: 800;
       color: #000;
-      background-color: #ffeb00;
+      background-color: #efce4a;
       text-align: center;
       border-radius: 3rem;
     }
