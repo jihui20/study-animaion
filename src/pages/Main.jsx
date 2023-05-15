@@ -8,6 +8,9 @@ export default function Main() {
       <li>
         <Link to={'/bookmark'}>북마크 페이지</Link>
       </li>
+      <li>
+        <Link to={'/rolling'}>롤링 페이지</Link>
+      </li>
     </LinkBox>
   );
 }

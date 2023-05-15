@@ -30,7 +30,7 @@ const CancelButton = styled.div`
     width: 2.4rem;
     height: 2.4rem;
     padding: 1rem;
-    background: url(images/ico_cancel.png) no-repeat 50% / 2.4rem auto;
+    background: url(images/icon_cancel.png) no-repeat 50% / 2.4rem auto;
   }
 
   .blind {
